@@ -11,12 +11,16 @@
   width: 100vw;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px
 }
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(16, 1fr);
-  grid-template-rows: repeat(16, 1fr);
   width: 80vw;
   height: 80vh;
   gap: 0;
