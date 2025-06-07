@@ -17,14 +17,12 @@
   display: grid;
   grid-template-columns: repeat(16, 1fr);
   grid-template-rows: repeat(16, 1fr);
-  gap: 2px;
   width: 80vw;
   height: 80vh;
+  gap: 0;
 }
 
 .grid-cell {
   background-color: gray;
   border: 2px solid black;
-  height: 20px;
-  width: 20px;
 }
