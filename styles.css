@@ -23,10 +23,7 @@
 }
 
 .grid-cell {
-  background-color: gray;
-  border: 2px solid black;
+  background-color: white;
+  border: 1px solid black;
 }
 
-.grid-cell:hover {
-  background-color: black;
-}
