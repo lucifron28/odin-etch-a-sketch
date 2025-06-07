@@ -26,3 +26,7 @@
   background-color: gray;
   border: 2px solid black;
 }
+
+.grid-cell:hover {
+  background-color: black;
+}
